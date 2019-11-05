@@ -13,6 +13,12 @@
 //    You should have received a copy of the GNU General Public License
 //    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
+//To contact us please email loke_hagberg@hotmail.com or emilio.muller@e.email
+//or send paper mail to 
+//
+//Grimstagatan 81
+//162 57 Vällingby
+//Sweden 
 <?php
 
 $host = "localhost"; // Usually localhost, it is the host for your MySQL DB
