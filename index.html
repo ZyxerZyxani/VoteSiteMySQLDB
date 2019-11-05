@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form site</title>
+</head>
+<style>
+	body{
+		font-family:verdana;
+	}
+	.container{width:500px;margin: 0 auto;}
+	h3{line-height:20px;font-size:20px;}
+	input{display:block;width:350px;height:20px;margin:10px 0;}
+	textarea{display:block;width:350px;margin:10px 0;}
+	button{background:green; border:1px solid green;width:70px;height:30px;color:#ffffff}
+</style>
+ 
+ 
+</head>	
+<body>
+<div class="container">
+	<h3>Lägg in röst</h3>
+	
+	
+	<form action="test.php" method="post"> <!-- Make form and runs test.php when submit is pressed. Name is what is used to identify field in the HTML from the php-->
+		<input type="text" name="Username" placeholder="Username">
+		<input type="text" name="Password" placeholder="Password">
+		<input type="number" name="frslagid" placeholder="FörslagID">
+		<input type="number" min = "-100" max = "100" name="rst" placeholder="Röst"/>
+		<button type="submit" name="submit">Submit</button>
+	</form>
+</div>	
+<button><a href="motioner.html"> Motioner </button>
+</body>
+    <button><a href="valuta.html"> valuta </button> 
+    <button><a href="delegat.html"> delegater, ställ upp och välj </button> 
+</html>
+
